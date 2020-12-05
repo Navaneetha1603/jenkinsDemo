@@ -1,0 +1,10 @@
+create practice
+create database practice
+create database practice;
+use practice_db
+db.createCollection("employee")
+db.employee.insertOne({username:"navaneetha",pwd:123,projects:["java","python"]})
+db.employee.find({})
+db.employee.insertMany([{username:"neethu",pwd:1234,projects:["web","js"]},{username:"nava",pwd:234,projects:["js","python"]}])
+db.employee.find({})
+db.employee.find({username:"neethu"})
